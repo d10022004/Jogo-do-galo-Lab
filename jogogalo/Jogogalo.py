@@ -11,6 +11,7 @@ jogador2 = 'O'
 
 #olaboi
 #bittenshousens
+#hehehehehhehe
 
 
 def menufuncao():
