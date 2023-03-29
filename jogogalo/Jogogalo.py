@@ -9,11 +9,6 @@ ganhar = False
 jogador1 = 'X'
 jogador2 = 'O'
 
-#olaboi
-#bittenshousens
-#hehehehehhehe
-
-
 def menufuncao():
     while 1:
         print('PARA JOGAR DIGITE 1 ')
@@ -25,7 +20,6 @@ def menufuncao():
         if opcao ==  0:
             print("Fim do jogo!")
             return 0
-
 
 
 def jogo():
@@ -44,11 +38,9 @@ def jogo():
             break
 
 
-
 def mostrarTabuleiro():
     for i in range(3):
         print("\n", tabuleiro[i][0],"|", tabuleiro[i][1],"|", tabuleiro[i][2],)
-
 
 
 def inserirLinhaColuna(jogador):
@@ -58,7 +50,6 @@ def inserirLinhaColuna(jogador):
         if  tabuleiro[linha1 - 1][coluna1 - 1] != 'O' or tabuleiro[linha1 - 1][coluna1 - 1] != 'X':
             break
     tabuleiro[linha1 - 1][coluna1 - 1] = jogador
-
 
 
 def limparTabuleiro():
