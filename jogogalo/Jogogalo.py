@@ -8,7 +8,8 @@ ganhadores = []
 ganhar = False
 jogador1 = 'X'
 jogador2 = 'O'
-#######
+#####
+
 def menufuncao():
     while 1:
         print('PARA JOGAR DIGITE 1 ')
